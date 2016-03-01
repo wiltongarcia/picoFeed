@@ -68,6 +68,13 @@ class Item
     public $content = '';
 
     /**
+     * Item description
+     *
+     * @var string
+     */
+    public $description = '';
+
+    /**
      * Item enclosure url.
      *
      * @var string
@@ -184,6 +191,14 @@ class Item
     public function getContent()
     {
         return $this->content;
+    }
+
+    /**
+     * Get description
+     */
+    public function getDescription()
+    {
+        return $this->description;
     }
 
     /**

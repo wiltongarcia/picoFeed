@@ -1,5 +1,5 @@
 {
-    "name": "fguillot/picofeed",
+    "name": "wiltongarcia/picofeed",
     "description": "Modern library to handle RSS/Atom feeds",
     "homepage": "https://github.com/fguillot/picoFeed",
     "type": "library",
@@ -7,6 +7,9 @@
     "authors": [
         {
             "name": "Frédéric Guillot"
+        },
+        {
+            "name": "Wilton Garcia"
         }
     ],
     "require": {
